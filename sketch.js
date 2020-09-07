@@ -62,7 +62,7 @@ function draw() {
       if(particle.body.position.x>=420){
        score=score+100;
        particle=null;
-       if(count>=500) gameState = "END"
+       if(count>=10) gameState = "END"
       }
     }
   }
@@ -73,7 +73,7 @@ function draw() {
       if(particle.body.position.x<=420){
        score=score+50;
        particle=null;
-       if(count>=5) gameState = "END"
+       if(count>=10) gameState = "END"
       }
     }
   }
