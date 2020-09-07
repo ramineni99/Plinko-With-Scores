@@ -97,6 +97,7 @@ function draw() {
   if(gameState=="PLAY"){
     particle = new Particle(mouseX,10,10);
     count=count+1;
+    console.log(count);
   }
 
  }
